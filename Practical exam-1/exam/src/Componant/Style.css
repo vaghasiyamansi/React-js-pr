@@ -1,0 +1,9 @@
+*{
+    text-decoration: none;
+}
+
+
+.sec-1{
+    display:flex;
+    justify-content: space-around;
+}
