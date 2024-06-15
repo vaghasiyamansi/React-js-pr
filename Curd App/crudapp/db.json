@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "id": "1048",
+      "firstname": "mahek",
+      "lastname": "italiya",
+      "age": "12",
+      "city": "amdavad"
+    },
+    {
+      "id": "3622",
+      "firstname": "ganga",
+      "lastname": "gami",
+      "age": "23",
+      "city": "surat"
+    },
+    {
+      "id": "c736",
+      "firstname": "rohini",
+      "lastname": "chaudhri",
+      "age": "22",
+      "city": "amdavad"
+    },
+    {
+      "id": "4db5",
+      "firstname": "ishaa",
+      "lastname": "dudhat",
+      "age": "15",
+      "city": "mumbai"
+    },
+    {
+      "id": "e75a",
+      "firstname": "nisha",
+      "lastname": "patel",
+      "age": "24",
+      "city": "rajkot"
+    }
+  ]
+}

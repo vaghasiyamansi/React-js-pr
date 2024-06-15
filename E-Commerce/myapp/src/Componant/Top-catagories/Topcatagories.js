@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+
 import cat01 from '../../Asset/cat01.svg'
 import cat02 from '../../Asset/cat02.svg'
 import cat03 from '../../Asset/cat03.svg'
@@ -149,7 +151,7 @@ function Topcatagories() {
 </div>
 
 
-<div className="card" style={{display:"flex", justifyContent:"space-evenly"}}>
+{/* <div className="card" style={{display:"flex", justifyContent:"space-evenly"}}>
 
 <div className='main'>
 <a href="#" class=" burdges flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56 relative">
@@ -161,13 +163,16 @@ function Topcatagories() {
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$20.00</h5>
     </div>
 </div>
-<a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56">
+
+<Link to="/product2" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56">
     <img src={product2} className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" alt=""/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <p class="mb-3 font-normal text-neutral-500 dark:text-gray-600">Allie Sharp</p>
         <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-black">$30.00</h5>
     </div>
-</a>
+    Product2
+</Link>
+
 <a href="#" class="flex flex-col items-center mt-6 bg-white border border-gray-200 rounded-lg shadow md:max-w-56">
     <img src={product3} className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-full md:rounded-none md:rounded-s-lg" alt=""/>
     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -234,7 +239,7 @@ function Topcatagories() {
     </div>
 </a>
 
-</div> 
+</div>  */}
 </div>
   )
 }

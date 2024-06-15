@@ -1,0 +1,19 @@
+{
+  "user": [
+    {
+      "id": "5",
+      "firstname": "Priyanshi",
+      "lastname": "Rabadiya",
+      "age": "18",
+      "city": "Surat"
+    },
+    {
+      "id": "005f",
+      "firstname": "mansi",
+      "lastname": "vaghasiya",
+      "age": "22",
+      "city": "surat"
+    }
+    
+  ]
+}

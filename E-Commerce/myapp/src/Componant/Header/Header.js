@@ -2,8 +2,20 @@ import React from 'react'
 import Headers from './Header.css'
 import logo from '../../Asset/logo.png'
 import Uk from '../../Asset/UK.jpg'
+import {Link} from "react-router-dom"
+import { useNavigate } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+// import { ADD , REMOVE} from '../../Redux/Action/Action'
+
 
 const Header = () => {
+
+  const data = useSelector((state)=>state.cartreducer.carts)
+  const wishlistdata = useSelector((state) =>state.wishlistreducer.Wishlist)
+
+ 
+  const naviGetSignIn = useNavigate();
+  const naviGetWishlist = useNavigate();
   return (
     <div>
       <header>
@@ -36,8 +48,21 @@ const Header = () => {
             <div className=' position-relative'>
 
             </div>
-            <i class="fa-regular fa-user ms-3 "></i>
-            <i class="fa-regular fa-heart ms-3 "></i>
+            <button className='relative'>
+            <Link to="/cart"><i class="fa-solid fa-cart-shopping fa-xl ms-3 pe-5"></i></Link>
+            <span className="absolute bg-red-600 h-4 w-4 rounded-full text-xs text-white flex items-center justify-center bottom-4 left-8">
+                    {data.length}
+            </span>
+            </button>
+
+            <i class="fa-regular fa-user fa-xl ms-3 pe-5 "></i>
+
+            <button className='relative'>
+            <Link to="/wishlist"><i class="fa-regular fa-heart fa-xl ms-3 pe-5"></i></Link>
+            <span className="absolute bg-red-600 h-4 w-4 rounded-full text-xs text-white flex items-center justify-center bottom-3 left-7">
+                    {wishlistdata.length}
+            </span>
+            </button>
           </div>
         </div>
       </header>
@@ -46,3 +71,5 @@ const Header = () => {
 }
 
 export default Header
+
+

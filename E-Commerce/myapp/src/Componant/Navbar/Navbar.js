@@ -115,7 +115,7 @@ function Navbar() {
                           <a href="#">Product Track</a>
                         </li>
                         <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all font-semibold">
-                        <Link to="/*">Error/404</Link>
+                        {/* <Link to="/*">Error/404</Link> */}
                         </li>
                       </ul>
                     </div>
@@ -154,7 +154,7 @@ function Navbar() {
                             PAGE LAYOUT
                           </h2>
                           <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all">
-                            <a href="#">About</a>
+                            <Link to="/about">About</Link>
                           </li>
                           <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all">
                             <a href="#">Cart</a>
@@ -163,10 +163,10 @@ function Navbar() {
                             <a href="#">Checkout</a>
                           </li>
                           <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all">
-                            <a href="#">Sign In</a>
+                            <Link to="/sign">Sign</Link>
                           </li>
                           <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all">
-                            <a href="#">Log In</a>
+                            <Link to ="/login">Log</Link>
                           </li>
                         </ul>
                         <ul className="px-3 w-[150%]">
@@ -177,7 +177,7 @@ function Navbar() {
                             <a href="#">Product Track</a>
                           </li>
                           <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all">
-                            <a href="#">Wishlist</a>
+                            <Link to="/wishlist">Wishlist</Link>
                           </li>
                           <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all">
                           <Link to="/*">Error/404</Link>
@@ -205,7 +205,7 @@ function Navbar() {
                           <a href="#">Blog Details</a>
                         </li>
                         <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all font-semibold">
-                        <Link to="/*">Error/404</Link>
+                        {/* <Link to="/*">Error/404</Link> */}
                           </li>
                       </ul>
                     </div>
@@ -218,7 +218,7 @@ function Navbar() {
                       </Link>
                       <ul className="text-start ps-2 rounded-b-lg bg-white text-sm link-lst absolute w-[250%] z-10  border-red-700 border-t-2 py-3">
                         <li className="py-2 ms-3 hover:text-red-600 hover:ms-4 transition-all font-semibold">
-                        <Link to="/*">Error/404</Link>
+                        {/* <Link to="/*">Error/404</Link> */}
                         </li>
                       </ul>
                     </div>

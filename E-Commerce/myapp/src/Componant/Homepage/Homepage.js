@@ -86,7 +86,7 @@ import 'swiper/css/navigation';
 import Homepage from './Homepage.css'
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 
 import banner1 from '../../Asset/banner1.jpg'
@@ -106,11 +106,8 @@ function Sidebar() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        
+        modules={[Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
